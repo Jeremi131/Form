@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
 import './styles/formStepOne.css'
 import { useNavigate } from 'react-router-dom'
 
 const FormStepOne = () => {
 
     const navigate = useNavigate()
-
-
 
     const handleSubmit = () => {
         navigate('/2')
